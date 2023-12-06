@@ -1,0 +1,32 @@
+h2 {
+    background-color: rgb(66, 216, 159);
+    color: #000000;
+    text-align: center;
+    position: relative; /* This makes sure that padding will happen after its expected position*/
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    animation: sizingAnimation 10s infinite;
+    animation-delay: 5s; /* This is the time before the animation starts */
+    animation-direction: alternate; /* This makes the animation go back and forth */
+
+  }
+.testsize{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.title {
+    background-color: rgb(35, 85, 224);
+    color: #ffffff;
+    width: 280px;
+    animation: alternateAnimation 1s infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes sizingAnimation {
+    from { width: 110px; }
+    to { width: 100%; }
+  }
+  @keyframes alternateAnimation {
+    from { transform: none; }
+    to { transform: translateX(290%); }
+  }
