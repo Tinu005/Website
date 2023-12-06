@@ -10,6 +10,11 @@ h2 {
     animation-direction: alternate; /* This makes the animation go back and forth */
 
   }
+
+.button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
 .testsize{
     font-size: 16px;
     font-family: Arial, sans-serif;
@@ -21,6 +26,16 @@ h2 {
     animation: alternateAnimation 1s infinite;
     animation-direction: alternate;
   }
+
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
 
   @keyframes sizingAnimation {
     from { width: 110px; }
