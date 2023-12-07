@@ -11,6 +11,10 @@ h2 {
 
   }
 
+.icon1 {
+    color: orange;
+  }
+
 .button1:hover {
     background-color: #04AA6D;
     color: white;
